@@ -44,7 +44,7 @@ jobs:
       # Use './gradlew build' to run both build and unit tests
       # Use './gradlew assembleRelease' for a release build (requires signing setup)
       - name: Build with Gradle
-        run: ./gradlew assembleDebug # Or ./gradlew build for tests too
+        run: ./gradlew build # Or ./gradlew build for tests too
 
       # Optional: Upload the built APK as an artifact
       # This allows you to download the APK from the Actions run summary
